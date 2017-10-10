@@ -13,7 +13,13 @@ namespace HorasUteis
 
             HorarioComercial calcularHorarioComercial = new HorarioComercial();
 
-            Console.Write(calcularHorarioComercial.CalculoSla(DateTime.Now, 15));
+            Console.Write(calcularHorarioComercial.CalculoSla(DateTime.Now, 24));
+
+            string S = "13 DUP 4 POP 5 DUP + DUP + -";
+
+            Solution solution = new Solution();
+
+            Console.Write("\n" + solution.Solucao(S));
 
             Console.ReadKey();
         }
